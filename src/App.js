@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Textwriter from "./Textwriter"
 
-function App() {
+const App = () => {
+  const texts = [
+    'Vítejte na našem webu',
+    'Nabízíme vám širokou škálu produktů',
+    'Kontaktujte nás pro více informací',
+    'Děkujeme, že jste navštívili náš web'
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>App
+     <Textwriter texts={texts} /> 
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

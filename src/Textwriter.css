@@ -1,0 +1,33 @@
+
+/* všechny točící texty */
+.text-change {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* hlavní měnící nadpis h1*/
+.change-h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 5px 15px;
+    box-shadow: 5px 5px;
+}
+
+.change-h2 {
+    
+    font-size: 20px;
+}
+
+.change-h3 {
+    font-size: 20px;
+}
+.change-h4 {
+   font-size: 20px;
+    
+}
